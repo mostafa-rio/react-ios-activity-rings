@@ -1,0 +1,77 @@
+.activity-rings-container {
+    --animation-duration: 1s;
+    position: relative;
+  }
+  
+  .activity-rings-container svg {
+    width: 100%;
+    height: 100%;
+    transform: rotate(-90deg);
+  }
+  
+  .background-ring {
+    fill: none;
+    stroke-width: 0;
+    opacity: 0;
+  }
+  
+  .activity-ring circle {
+    fill: none;
+    transition: stroke-dashoffset var(--animation-duration) ease-in-out;
+    animation: ring-fill var(--animation-duration) ease-in-out forwards;
+    filter: drop-shadow(-1px 1px 2px rgba(0, 0, 0, 0.3));
+  }
+  
+  .outer-ring circle {
+    stroke-width: 13;
+    stroke: #ff0099; /* Hot pink color from the image */
+    filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.4));
+  }
+  
+  .middle-ring circle {
+    stroke-width: 13;
+    stroke: #9cff00; /* Bright lime green from the image */
+    filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.4));
+  }
+  
+  .inner-ring circle {
+    stroke-width: 13;
+    stroke: #00e5ff; /* Cyan/turquoise from the image */
+    filter: drop-shadow(0px 2px 3px rgba(0, 0, 0, 0.4));
+  }
+  
+  .center-circle {
+    fill: black;
+  }
+  
+  @keyframes ring-fill {
+    from {
+      stroke-dashoffset: 50;
+    }
+  }
+  
+  /* 3D effect gradients */
+  .outer-ring-gradient {
+    stop-color: #ff0099;
+  }
+  
+  .outer-ring-gradient-dark {
+    stop-color: #d6007f;
+  }
+  
+  .middle-ring-gradient {
+    stop-color: #9cff00;
+  }
+  
+  .middle-ring-gradient-dark {
+    stop-color: #83d600;
+  }
+  
+  .inner-ring-gradient {
+    stop-color: #00e5ff;
+  }
+  
+  .inner-ring-gradient-dark {
+    stop-color: #00c2d6;
+  }
+  
