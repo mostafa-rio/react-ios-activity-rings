@@ -11,6 +11,9 @@ dependencies:
   react-dom:
     specifier: ^19.1.0
     version: 19.1.0(react@19.1.0)
+  react-ios-activity-rings-chart:
+    specifier: ^0.0.1
+    version: 0.0.1
 
 devDependencies:
   '@eslint/js':
@@ -2078,6 +2081,13 @@ packages:
     dependencies:
       react: 19.1.0
       scheduler: 0.26.0
+    dev: false
+
+  /react-ios-activity-rings-chart@0.0.1:
+    resolution: {integrity: sha512-a469AnwZxmkLQhBcQIb+23MQE8vhv939p575Ki/pM1+DVLi+OQ2Th7F61CnHytYlFDX/K6YpZGdYWOmV0hkCOA==}
+    dependencies:
+      react: 19.1.0
+      react-dom: 19.1.0(react@19.1.0)
     dev: false
 
   /react-refresh@0.17.0:
