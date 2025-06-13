@@ -5,8 +5,6 @@ import './App.css'
 import ActivityRings from './components/activity-rings'
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <ActivityRings progress={[0.1, 0.5, 0.5]}  />
   )
