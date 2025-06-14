@@ -1,9 +1,10 @@
-import './App.css'
-import {ActivityRingsChart} from './index'
-
+import ActivityRingsChart from './components/activity-rings'
+// import 'react-ios-activity-rings-chart/dist/react-ios-activity-rings-chart.css'
 function App() {
   return (
-    <ActivityRingsChart  progress={[0.1, 0.5, 0.5]}  />
+    <div>
+      <ActivityRingsChart  progress={[0.9, 0.8, 0.7]}  />
+    </div>
   )
 }
 

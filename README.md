@@ -39,6 +39,9 @@ A highly customizable React component that replicates the iOS Activity Rings wit
 | `size` | `number` | `150` | Size of the activity rings in pixels |
 | `animationDuration` | `number` | `1` | Animation duration in seconds |
 | `backgroundColor` | `string` | `"black"` | Background color of the component |
+| `outerArrow` | `ReactNode` | `undefined` | Custom arrow component for the outer ring |
+| `middleArrow` | `ReactNode` | `undefined` | Custom arrow component for the middle ring |
+| `innerArrow` | `ReactNode` | `undefined` | Custom arrow component for the inner ring |
 
 ### progress
 

@@ -1,7 +1,7 @@
 {
   "name": "react-ios-activity-rings-chart",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.1.0",
   "type": "module",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.es.js",
@@ -26,9 +26,10 @@
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "react-ios-activity-rings-chart": "^0.0.1"
+    "react-ios-activity-rings-chart": "^0.0.4"
   },
   "devDependencies": {
+    "vite-plugin-lib-inject-css": "^2.2.2",
     "@eslint/js": "^9.25.0",
     "@types/node": "^24.0.1",
     "@types/react": "^19.1.2",
